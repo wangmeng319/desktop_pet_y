@@ -1,0 +1,10 @@
+[project]
+name = "desktop-pet-y"
+version = "0.1.0"
+description = "以 macOS 为主的非官方 Y 桌宠，同人立绘与本地对话记忆"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyside6-essentials>=6.12.0",
+    "python-dotenv>=1.2.4",
+]
