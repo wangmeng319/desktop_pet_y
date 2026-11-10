@@ -1,11 +1,19 @@
 # Desktop Pet Y
 
-Y 是一个面向 macOS 的非官方桌宠。角色造型参考 Hotta Studio 的《异环》（Neverness to Everness，NTE）角色 Y 和曳尔沐。项目以 Python 和 PySide6 实现，交互和 PNG 帧动画的组织思路参考了 VPet。项目用于非商业同人创作。 [《异环》官方社区](https://steamcommunity.com/app/4508340/allnews/?l=schinese) · [VPet](https://github.com/LorisYounger/VPet)
+Y 是一个面向 macOS 的非官方桌宠。桌宠以 Hotta Studio 的《异环》（Neverness to Everness，NTE）角色 **Y** 为主题。项目以 Python 和 PySide6 实现，交互和 PNG 帧动画的组织思路参考了 VPet。项目用于非商业同人创作。 [《异环》官方社区](https://steamcommunity.com/app/4508340/allnews/?l=schinese) · [VPet](https://github.com/LorisYounger/VPet)
 
 | 平台 | 状态 |
 | --- | --- |
 | macOS | 当前支持和主要验证平台，已在 Apple Silicon 上测试 |
 | Windows | 待验证，暂未列入支持范围 |
+
+## 角色与立绘
+
+**Y** 是这款桌宠里的桌面伙伴。她会在桌边发呆、眨眼或散步，轻点她会看到不同的表情，双击就可以和她聊天。
+
+<p align="center">
+  <img src="assets/y/idle.png" width="220" alt="桌宠 Y 的正面全身立绘，银紫长发、蓝白服装与像素翼短靴">
+</p>
 
 ## 快速开始
 
@@ -56,7 +64,7 @@ y_pet/
   chat.py                  对话窗口和模型请求
   memory.py                SQLite 对话记录
   theme.py                 聊天窗口与气泡的像素风样式
-assets/y/              运行所需的 PNG 帧和步行图集
+assets/y/                  运行所需的 PNG 帧和步行图集
 config/system-prompt.txt   系统提示词
 docs/                      素材说明和发布前检查
 .env.example               模型配置模板
